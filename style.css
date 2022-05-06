@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    box-sizing: content-box;
+    padding: 5px 20px 5px;
+    display: grid;
+    margin-right: 20px;
+    background-color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#titulo{
+    font-size: 20px;
+    text-align: start;
+    color: blueviolet;
+}
+.image-profile{
+    background-image: url("images/Screenshot_20190216-090526.png");
+    height: 200px;
+    width: 400px;
+    border-color: black solid;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+}
+.subtitulo{
+    color:blueviolet;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+
+.sector{
+     color: blueviolet;
+     display: flex;
+     justify-content: center;
+     font-size: 18px;
+}
+
+.imagen{
+     height: 30px;
+     display: wrap-reverse;
+     align-content: end;
+}
